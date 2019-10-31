@@ -1,0 +1,9 @@
+server:
+  port: 8020
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spcloud-proj-demo-01?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: ale
+    password: a123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
