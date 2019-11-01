@@ -1,6 +1,8 @@
 server:
   port: 8020
 spring:
+  application:
+    name: menu-mgr
   datasource:
     url: jdbc:mysql://localhost:3306/spcloud-proj-demo-01?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: ale
